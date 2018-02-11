@@ -8,10 +8,13 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Voyage Responsable - Arthur Goubet, 2018"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Vers un voyage plus responsable' },
+        {
+          name: 'keywords',
+          content: 'voyage, responsable, environment, ecologie, préservation, nature'
+        }
       ]}
     />
     <Header />
@@ -20,7 +23,7 @@ const TemplateWrapper = ({ children }) => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        paddingTop: 0
       }}
     >
       {children()}
@@ -29,7 +32,7 @@ const TemplateWrapper = ({ children }) => (
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func
 }
 
 export default TemplateWrapper

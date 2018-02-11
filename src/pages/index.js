@@ -1,7 +1,7 @@
 import React from 'react'
 
 const IndexPage = () => (
-  <div className="main">
+  <div className='main'>
     <h1 style={{ textAlign: 'center', marginBottom: '30px' }}>
       Vers un voyage plus responsable
     </h1>
@@ -736,9 +736,7 @@ const IndexPage = () => (
     <br />
     <hr />
     <h2>
-      <a href='#documentation-sources'>
-        Documentations et sources
-      </a>
+      <a href='#documentation-sources'>Documentations et sources</a>
     </h2>
     <ul className='dashed'>
       <li>
@@ -862,6 +860,21 @@ const IndexPage = () => (
         </a>
       </li>
     </ul>
+    <hr />
+    <p>Auteur: Arthur Goubet</p>
+    <p>
+      Réalisation: Charles Ahmadzadeh, sources disponibles sur{' '}
+      <a href='https://github.com/superzadeh/voyage-responsable' target='_blank'>
+        Github
+      </a>
+    </p>
+    <p>
+      Pour toutes suggestions, n'hésitez pas à{' '}
+      <a href='https://github.com/superzadeh/voyage-responsable/issues' target='_blank'>
+        créer une Issue
+      </a>{' '}
+      sur Github.
+    </p>
   </div>
 )
 
