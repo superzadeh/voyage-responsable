@@ -860,7 +860,9 @@ const IndexPage = () => (
         </a>
       </li>
     </ul>
+    <br/>
     <hr />
+    <br/>
     <p>Auteur: Arthur Goubet</p>
     <p>
       Réalisation: Charles Ahmadzadeh, sources disponibles sur{' '}
