@@ -122,7 +122,7 @@ const IndexPage = () => (
     </blockquote>
 
     <h4 id='voyage-velo'>
-      <a href='#voyage-velo'>Pourquoi ne pas voyage à vélo?</a>
+      <a href='#voyage-velo'>Pourquoi ne pas voyager à vélo?</a>
     </h4>
     <p>
       Ce mode de déplacement permet de vivre le voyage différemment en découvrant de
