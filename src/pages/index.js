@@ -1,9 +1,9 @@
 import React from 'react'
 
 const IndexPage = () => (
-  <div className='main'>
+  <div className="main">
     <h1 style={{ textAlign: 'center', marginBottom: '30px' }}>
-      Vers un voyage plus responsable
+      Diminuer son impact environnemental dans le voyage
     </h1>
     <p>
       En 2015, 1 186 000 0001 touristes internationaux ont parcouru le monde. Il y en
@@ -19,8 +19,8 @@ const IndexPage = () => (
       dans une démarche durable.
     </p>
 
-    <h2 id='transports'>
-      <a href='#transports'>Transports</a>
+    <h2 id="transports">
+      <a href="#transports">Transports</a>
     </h2>
 
     <p>
@@ -33,19 +33,25 @@ const IndexPage = () => (
       doit être faite de manière consciente, le bas coût des billets n'est pas le seul
       paramètre et ne reflète pas la consommation d'énergie inhérente. Vous pouvez trouver
       la consommation de votre vol au départ de la France sur{' '}
-      <a href='http://eco-calculateur.aviation-civile.gouv.fr/' target='_blank'>
+      <a href="http://eco-calculateur.aviation-civile.gouv.fr/" target="_blank">
         http://eco-calculateur.aviation-civile.gouv.fr/
       </a>.
     </p>
-    <blockquote cite='http://www.ademe.fr/vacances-kilometre'>
+    <blockquote cite="http://www.ademe.fr/vacances-kilometre">
       <em>
-        L'infographie de l'Ademe "Des vacances au kilomètre"
-        http://www.ademe.fr/vacances-kilometre présente clairement les problématiques.
+        L'infographie de l'Ademe "Des vacances au kilomètre" {' '}
+        <a
+          href="http://multimedia.ademe.fr/infographies/infographie_vacances/"
+          target="_blank"
+        >
+          http://multimedia.ademe.fr/infographies/infographie_vacances/
+        </a>{' '}
+        présente clairement les problématiques.
       </em>
     </blockquote>
 
-    <h3 id='modes-deplacement'>
-      <a href='#modes-deplacement'>Les modes de déplacements</a>
+    <h3 id="modes-deplacement">
+      <a href="#modes-deplacement">Les modes de déplacements</a>
     </h3>
 
     <p>
@@ -59,7 +65,7 @@ const IndexPage = () => (
         le temps de voyage sur place et l'espacement de ces escapades lointaines.
       </em>
     </blockquote>
-    <div className='headline'>Arrivé sur place:</div>
+    <div className="headline">Arrivé sur place:</div>
     <p>
       Il est normal de vouloir voir le plus de choses possibles lors de son temps de
       vacances. C'est pourquoi dans la zone où nous allons, il arrive que nous prenions
@@ -69,18 +75,18 @@ const IndexPage = () => (
       gagner quelques heures, nous survolons une part importante du voyage et consommons
       plus d'énergie.
     </p>
-    <blockquote cite='https://seat61.com'>
+    <blockquote cite="https://seat61.com">
       <em>
         Rappelons-nous que dans de nombreux pays du monde le transport ferroviaire ainsi
         que fluvial est efficacement développé, pensez-y, ce sont des transports longues
         distances peu polluant vous trouverez sur le site{' '}
-        <a href='https://seat61.com' target='_blank'>
+        <a href="https://seat61.com" target="_blank">
           seat61.com
         </a>{' '}
         des informations utiles sur le transport ferroviaire international.
       </em>
     </blockquote>
-    <div className='headline'>En ville:</div>
+    <div className="headline">En ville:</div>
     <p>
       Pour découvrir une ville ayons le réflexe transport en commun, en plus de réduire le
       coût, le trafic et la consommation ce sont des moments que nous partageons avec les
@@ -89,12 +95,12 @@ const IndexPage = () => (
       découverte des lieux.
     </p>
 
-    <h3 id='voyage-differement'>
-      <a href='#voyage-differement'>Le voyage différemment</a>
+    <h3 id="voyage-differement">
+      <a href="#voyage-differement">Le voyage différemment</a>
     </h3>
 
-    <h4 id='voyageurs-longue-duree'>
-      <a href='#voyageurs-longue-duree'>Voyageurs longue durée vivez la continuité!</a>
+    <h4 id="voyageurs-longue-duree">
+      <a href="#voyageurs-longue-duree">Voyageurs longue durée vivez la continuité!</a>
     </h4>
     <p>
       Vous qui avez du temps, faites l'expérience de la continuité. L'Asie du sud-est peut
@@ -121,8 +127,8 @@ const IndexPage = () => (
       </em>
     </blockquote>
 
-    <h4 id='voyage-velo'>
-      <a href='#voyage-velo'>Pourquoi ne pas voyager à vélo?</a>
+    <h4 id="voyage-velo">
+      <a href="#voyage-velo">Pourquoi ne pas voyager à vélo?</a>
     </h4>
     <p>
       Ce mode de déplacement permet de vivre le voyage différemment en découvrant de
@@ -131,13 +137,13 @@ const IndexPage = () => (
       reconnaissance de l'effort accompli.
     </p>
     <p>
-      <a href='https://fr.warmshowers.org' target='_blank'>
+      <a href="https://fr.warmshowers.org" target="_blank">
         https://fr.warmshowers.org
       </a>{' '}
       est une plateforme de "touristes à vélo". Les ateliers collaboratifs de réparation
       de vélos présents dans de nombreuses villes, sont de très bonnes sources de
       renseignements. Pour trouver le plus proche de chez vous:{' '}
-      <a href='https://www.heureux-cyclage.org' target='_blank'>
+      <a href="https://www.heureux-cyclage.org" target="_blank">
         https://www.heureux-cyclage.org
       </a>
     </p>
@@ -148,14 +154,14 @@ const IndexPage = () => (
       </em>
     </blockquote>
 
-    <h4 id='tangeante'>
-      <a href='#tangeante'>Soyez original, prenez la tangente!</a>
+    <h4 id="tangeante">
+      <a href="#tangeante">Soyez original, prenez la tangente!</a>
     </h4>
     <p>
       A vous d'inventer votre voyage alternatif avec un mode de déplacement peu
       consommateur! Voici quelques exemples de voyageurs croisés peu commun:
     </p>
-    <ul className='dashed'>
+    <ul className="dashed">
       <li>Le retour aux sources: La marche accompagnée d'un âne.</li>
       <li>Le 2 en 1: Le canoë plié sur un vélo et vice versa.</li>
       <li>Le californien : La longue board.</li>
@@ -171,17 +177,17 @@ const IndexPage = () => (
     <em>
       Pour aller plus loin et avoir un aperçu global du voyage durable, vous pouvez
       feuilleter le passeport vert édité par l'ONU.{' '}
-      <a href='http://www.unep.fr/greenpassport' target='_blank'>
+      <a href="http://www.unep.fr/greenpassport" target="_blank">
         http://www.unep.fr/greenpassport
       </a>
     </em>
 
-    <h2 id='hebergements'>
-      <a href='#hebergements'>Hébergements</a>
+    <h2 id="hebergements">
+      <a href="#hebergements">Hébergements</a>
     </h2>
 
-    <h3 id='economie-energie'>
-      <a href='#economie-energie'>Les économies d'énergie</a>
+    <h3 id="economie-energie">
+      <a href="#economie-energie">Les économies d'énergie</a>
     </h3>
     <p>
       Qu'importe le niveau de confort de notre hébergement, nous pouvons réaliser de
@@ -200,8 +206,8 @@ const IndexPage = () => (
       </em>
     </blockquote>
 
-    <h4 id='gestion-temperature'>
-      <a href='#gestion-temperature'>Gestion de la température</a>
+    <h4 id="gestion-temperature">
+      <a href="#gestion-temperature">Gestion de la température</a>
     </h4>
     <p>
       <strong>
@@ -224,8 +230,8 @@ const IndexPage = () => (
       rideaux la journée et en débranchant les appareils électriques inutiles.
     </p>
 
-    <h4 id='debranchez-tout'>
-      <a href='#debranchez-tout'>Débranchez tout!</a>
+    <h4 id="debranchez-tout">
+      <a href="#debranchez-tout">Débranchez tout!</a>
     </h4>
     <p>
       En vacances continuons à traquer les consos d'énergie! Outre le grand classique de
@@ -236,8 +242,8 @@ const IndexPage = () => (
       énergivores, comme la géolocalisation et de le mettre en mode avion.
     </p>
 
-    <h3 id='economie-eau'>
-      <a href='#economie-eau'>Économie d'eau</a>
+    <h3 id="economie-eau">
+      <a href="#economie-eau">Économie d'eau</a>
     </h3>
     <p>
       Tout le monde a déjà pris des douches plus longues et plus nombreuses en vacances.
@@ -259,8 +265,8 @@ const IndexPage = () => (
       consommateurs d'énergie.
     </p>
 
-    <h4 id='produits-hygiene'>
-      <a href='#produits-hygiene'>Les produits d'hygiène</a>
+    <h4 id="produits-hygiene">
+      <a href="#produits-hygiene">Les produits d'hygiène</a>
     </h4>
     <p>
       D'autant plus qu'à la maison, les rejets des produits d'hygiène (savon, shampoing,
@@ -328,12 +334,12 @@ const IndexPage = () => (
       peu de savon suffit largement.
     </p>
 
-    <h2 id='alimentation'>
-      <a href='#alimentation'>Alimentation</a>
+    <h2 id="alimentation">
+      <a href="#alimentation">Alimentation</a>
     </h2>
 
-    <h3 id='diminuons-dechets'>
-      <a href='#diminuons-dechets'>Diminuons nos déchets</a>
+    <h3 id="diminuons-dechets">
+      <a href="#diminuons-dechets">Diminuons nos déchets</a>
     </h3>
     <p>
       On ne peut pas critiquer la présence de déchet dans les pays visités si soi-même
@@ -346,12 +352,12 @@ const IndexPage = () => (
 
     <br />
 
-    <div className='headline'>
+    <div className="headline">
       Les bouteilles en plastiques engendrent une pollution considérable:
     </div>
     <p>
       Cette infographie{' '}
-      <a href='http://trademachines.fr/info/eau-en-bouteille' target='_blank'>
+      <a href="http://trademachines.fr/info/eau-en-bouteille" target="_blank">
         http://trademachines.fr/info/eau-en-bouteille
       </a>{' '}
       résume l'aberration de l'eau en bouteille. Dans les pays où l'eau n'est pas potable,
@@ -376,7 +382,7 @@ const IndexPage = () => (
 
     <br />
 
-    <div className='headline'>Apprenons à refuser les sacs plastiques:</div>
+    <div className="headline">Apprenons à refuser les sacs plastiques:</div>
     <p>
       Cela peut paraître difficile mais avec un peu d'assurance nous y arrivons! Emportez
       dans vos bagages des sacs en toile (lavable donc) pour les courses qui pourront
@@ -397,7 +403,7 @@ const IndexPage = () => (
 
     <br />
 
-    <div className='headline'>Street food et take away:</div>
+    <div className="headline">Street food et take away:</div>
     <p>
       Nous l'avons tous constaté à maintes reprises: la quantité de déchet importante à la
       fin d'un repas à emporter. C'est un déchet qui n'est pas difficile à éviter. Il
@@ -409,8 +415,8 @@ const IndexPage = () => (
       voyage.
     </p>
 
-    <h3 id='nos-assiettes'>
-      <a href='#nos-assiettes'>Dans nos assiettes</a>
+    <h3 id="nos-assiettes">
+      <a href="#nos-assiettes">Dans nos assiettes</a>
     </h3>
     <p>
       Manger comme les habitants fait partie du voyage et de sa découverte. Un restaurant
@@ -431,7 +437,7 @@ const IndexPage = () => (
       n'est pas parce que c'est disponible et que les locaux en mangent qu'il faut créer
       une demande supplémentaire. Si vous avez un doute, n'en mangez pas.
     </p>
-    <blockquote>
+    <blockquote cite='http://ddc.arte.tv/emission/des-oceans-sans-poissons'>
       <em>
         <p>
           Vous craignez l'origine et la fraîcheur de certaines viandes, poissons ou œuf?
@@ -441,21 +447,21 @@ const IndexPage = () => (
           Alors que la question de l'élevage industriel n'est plus à présenter, celle de
           la pêche est également préoccupante. Cette émission du dessous des cartes
           illustre la problématique de la consommation de poissons.
-          <a href='http://ddc.arte.tv/emission/des-oceans-sans-poissons' target='_blank'>
+          <a href="http://ddc.arte.tv/emission/des-oceans-sans-poissons" target="_blank">
             http://ddc.arte.tv/emission/des-oceans-sans-poissons
           </a>
         </p>
       </em>
     </blockquote>
 
-    <h2 id='approche-nature'>
-      <a href='#approche-nature'>Approche de la nature</a>
+    <h2 id="approche-nature">
+      <a href="#approche-nature">Approche de la nature</a>
     </h2>
     <p>
       Notre envie de découverte de zones et d'animaux sauvages peut avoir des impacts
       opposés:
     </p>
-    <ul className='dashed'>
+    <ul className="dashed">
       <li>
         Le premier positif, promouvant la conservation des milieux naturels en alternative
         à une industrie destructive.
@@ -473,11 +479,11 @@ const IndexPage = () => (
       </em>
     </blockquote>
 
-    <h3 id='milieux-naturels'>
-      <a href='#milieux-naturels'>Visiter les milieux naturels</a>
+    <h3 id="milieux-naturels">
+      <a href="#milieux-naturels">Visiter les milieux naturels</a>
     </h3>
     <p>L’impact sur le milieu dépend de plusieurs critères:</p>
-    <ul className='dashed'>
+    <ul className="dashed">
       <li>
         Le type d'activité. Nous diminuons notre empreinte en pratiquant la randonné ou le
         VTT plutôt qu’une activité mécanique (moto, quad) ou encore le kayak face au jet
@@ -494,8 +500,8 @@ const IndexPage = () => (
       </li>
     </ul>
 
-    <h3 id='nouveaux-espaces'>
-      <a href='#nouveaux-espaces'>Découvrons de nouveaux espaces !</a>
+    <h3 id="nouveaux-espaces">
+      <a href="#nouveaux-espaces">Découvrons de nouveaux espaces !</a>
     </h3>
     <p>
       Dans les milieux naturels proches de chez nous, nous connaissons les règles à
@@ -503,7 +509,7 @@ const IndexPage = () => (
       un milieu que nous ne connaissons pas avec des espèces tout aussi inconnues. Nous
       avons d'autant plus envie de nous en approcher.
     </p>
-    <ul className='dashed'>
+    <ul className="dashed">
       <li>
         La première étape est de se renseigner sur la surexploitation touristique des
         lieux. Evitons d'aller dans ces zones si jolies soient elles.
@@ -528,8 +534,8 @@ const IndexPage = () => (
       mais faisons les dans un cadre respectueux.
     </p>
 
-    <h3 id='rejets'>
-      <a href='#rejets'>Les rejets</a>
+    <h3 id="rejets">
+      <a href="#rejets">Les rejets</a>
     </h3>
     <p>
       Avant de partir à l’aventure, éliminons les emballages, emmenons nos aliments dans
@@ -549,8 +555,8 @@ const IndexPage = () => (
       de 30cm de profondeur et d'être au moins à 50 mètres de l'eau (ruisseau, lac, etc.).
     </p>
 
-    <h3 id='observation-faune'>
-      <a href='#observation-faune'>Observation de la faune</a>
+    <h3 id="observation-faune">
+      <a href="#observation-faune">Observation de la faune</a>
     </h3>
     <p>
       Le dérangement des animaux peut provoquer une augmentation de la mortalité notamment
@@ -588,8 +594,8 @@ const IndexPage = () => (
       prenant des photos avec ces animaux ou en regardant des mises en scène.
     </p>
 
-    <h3 id='sous-leau'>
-      <a href='#sous-leau'>En visite sous l'eau</a>
+    <h3 id="sous-leau">
+      <a href="#sous-leau">En visite sous l'eau</a>
     </h3>
     <p>
       Dans l'eau, nous sommes invités dans un milieu fragile, profitons du spectacle sans
@@ -602,11 +608,11 @@ const IndexPage = () => (
       qu'avec de la crème solaire que l'on évite de mettre juste avant de rentrer dans
       l'eau.
     </p>
-    <blockquote>
+    <blockquote cite='https://www.surfrider.eu/'>
       <em>
         Vous pouvez également vous engager dans une des nombreuses associations qui
         militent pour le milieu marin comme{' '}
-        <a href='https://www.surfrider.eu/' target='_blank'>
+        <a href="https://www.surfrider.eu/" target="_blank">
           Surfrider
         </a>{' '}
         orienté contre la pollution océanique.
@@ -616,8 +622,8 @@ const IndexPage = () => (
     <table>
       <tr>
         <th>
-          <h3 id='incontournable'>
-            <a href='#incontournable'>L'incontournable du sac de voyage</a>
+          <h3 id="incontournable">
+            <a href="#incontournable">L'incontournable du sac de voyage</a>
           </h3>
         </th>
         <th>
@@ -626,14 +632,14 @@ const IndexPage = () => (
       </tr>
       <tr>
         <td>
-          <ul className='dashed'>
+          <ul className="dashed">
             <li>Une gourde de plus d'un litre</li>
             <li>Des pastilles de traitement de l'eau et/ou un mini-filtre.</li>
             <li>Paille réutilisable</li>
           </ul>
         </td>
         <td>
-          <ul className='dashed'>
+          <ul className="dashed">
             <li>
               <strong>29</strong> grandes bouteilles d’eau et 20 petites bouteilles
             </li>
@@ -645,7 +651,7 @@ const IndexPage = () => (
       </tr>
       <tr>
         <td>
-          <ul className='dashed'>
+          <ul className="dashed">
             <li>
               Couverts, assiettes et gobelets (la fameuse gamelle).
               <blockquote>
@@ -660,7 +666,7 @@ const IndexPage = () => (
           </ul>
         </td>
         <td>
-          <ul className='dashed'>
+          <ul className="dashed">
             <li>
               <strong>20</strong> barquettes polystyrène
             </li>
@@ -678,7 +684,7 @@ const IndexPage = () => (
       </tr>
       <tr>
         <td>
-          <ul className='dashed'>
+          <ul className="dashed">
             <li>
               Produits d'hygiène aux composants naturels
               <blockquote>
@@ -692,14 +698,14 @@ const IndexPage = () => (
           </ul>
         </td>
         <td>
-          <ul className='dashed'>
+          <ul className="dashed">
             <li>Des rejets non traités moins nocifs pour le milieu naturel</li>
           </ul>
         </td>
       </tr>
       <tr>
-        <td colSpan='2'>
-          <ul className='dashed'>
+        <td colSpan="2">
+          <ul className="dashed">
             <li>Une paire de jumelle pour l'observation de la vie sauvage</li>
             <em>
               En revanche n'oubliez pas de rapporter à la maison et recycler vos piles
@@ -712,8 +718,8 @@ const IndexPage = () => (
 
     <br />
     <br />
-    <h2 id='en-route'>
-      <a href='#en-route'>Alors en route!</a>
+    <h2 id="en-route">
+      <a href="#en-route">Alors en route!</a>
     </h2>
     <p>
       Les vacances et les voyages ne riment pas avec contraintes, cependant de simples
@@ -736,28 +742,28 @@ const IndexPage = () => (
     <br />
     <hr />
     <h2>
-      <a href='#documentation-sources'>Documentations et sources</a>
+      <a href="#documentation-sources">Documentations et sources</a>
     </h2>
-    <ul className='dashed'>
+    <ul className="dashed">
       <li>
         Le passeport vert de l'ONU:{' '}
-        <a target='_blank' href='http://www.unep.fr/greenpassport'>
+        <a target="_blank" href="http://www.unep.fr/greenpassport">
           http://www.unep.fr/greenpassport
         </a>
       </li>
       <li>
         Guides de l'Ademe:
-        <ul className='dashed'>
+        <ul className="dashed">
           <li>
             "vacances au kilomètre":{' '}
-            <a target='_blank' href='http://www.ademe.fr/vacances-kilometre'>
+            <a target="_blank" href="http://www.ademe.fr/vacances-kilometre">
               http://www.ademe.fr/vacances-kilometre
             </a>
           </li>
           <li>
             <a
-              target='_blank'
-              href='http://multimedia.ademe.fr/infographies/infographie_vacances/'
+              target="_blank"
+              href="http://multimedia.ademe.fr/infographies/infographie_vacances/"
             >
               http://multimedia.ademe.fr/infographies/infographie_vacances/
             </a>
@@ -765,8 +771,8 @@ const IndexPage = () => (
           <li>
             "les bons ecogestes en vacances"
             <a
-              target='_blank'
-              href='http://www.ademe.fr/particuliers-eco-citoyens/vacances-loisirs/passer-vacances-plus-ecologiques/bons-gestes-ecologiques-vacances'
+              target="_blank"
+              href="http://www.ademe.fr/particuliers-eco-citoyens/vacances-loisirs/passer-vacances-plus-ecologiques/bons-gestes-ecologiques-vacances"
             >
               http://www.ademe.fr/particuliers-eco-citoyens/vacances-loisirs/passer-vacances-plus-ecologiques/bons-gestes-ecologiques-vacances
             </a>
@@ -774,8 +780,8 @@ const IndexPage = () => (
           <li>
             "vacances d'hiver"
             <a
-              target='_blank'
-              href='http://www.ademe.fr/particuliers-eco-citoyens/vacances-loisirs/passer-vacances-plus-ecologiques/sports-dhiver'
+              target="_blank"
+              href="http://www.ademe.fr/particuliers-eco-citoyens/vacances-loisirs/passer-vacances-plus-ecologiques/sports-dhiver"
             >
               http://www.ademe.fr/particuliers-eco-citoyens/vacances-loisirs/passer-vacances-plus-ecologiques/sports-dhiver
             </a>
@@ -785,33 +791,33 @@ const IndexPage = () => (
       <li>
         Consommation aviation, calculateur (français):{' '}
         <a
-          target='_blank'
-          href='http://eco-calculateur.aviation-civile.gouv.fr/comment_ca_marche.html'
+          target="_blank"
+          href="http://eco-calculateur.aviation-civile.gouv.fr/comment_ca_marche.html"
         >
           http://eco-calculateur.aviation-civile.gouv.fr/comment_ca_marche.html
         </a>{' '}
         Réalisé notamment avec le CITEPA{' '}
-        <a target='_blank' href='http://www.citepa.org/fr/'>
+        <a target="_blank" href="http://www.citepa.org/fr/">
           http://www.citepa.org/fr/
         </a>
       </li>
       <li>
         Association qui milite contre la pollution océanique:{' '}
-        <a target='_blank' href='https://www.surfrider.eu'>
+        <a target="_blank" href="https://www.surfrider.eu">
           https://www.surfrider.eu
         </a>
       </li>
       <li>
         Association orientée vers la montagne:{' '}
-        <a target='_blank' href='http://www.mountain-riders.org'>
+        <a target="_blank" href="http://www.mountain-riders.org">
           http://www.mountain-riders.org
         </a>
       </li>
       <li>
         Océan sans poisson{' '}
         <a
-          target='_blank'
-          href='http://ddc.arte.tv/autour-du-sujet/des-oceans-sans-poissons'
+          target="_blank"
+          href="http://ddc.arte.tv/autour-du-sujet/des-oceans-sans-poissons"
         >
           http://ddc.arte.tv/autour-du-sujet/des-oceans-sans-poissons
         </a>
@@ -819,33 +825,33 @@ const IndexPage = () => (
       <li>
         Bouteille plastique:
         <a
-          target='_blank'
-          href='https://mrmondialisation.org/la-face-cachee-des-bouteilles-en-plastique/'
+          target="_blank"
+          href="https://mrmondialisation.org/la-face-cachee-des-bouteilles-en-plastique/"
         >
           https://mrmondialisation.org/la-face-cachee-des-bouteilles-en-plastique/
         </a>
-        <a target='_blank' href='http://trademachines.fr/info/eau-en-bouteille'>
+        <a target="_blank" href="http://trademachines.fr/info/eau-en-bouteille">
           http://trademachines.fr/info/eau-en-bouteille
         </a>
       </li>
       <li>
         Voyage en vélo:{' '}
-        <a target='_blank' href='https://fr.warmshowers.org'>
+        <a target="_blank" href="https://fr.warmshowers.org">
           https://fr.warmshowers.org
         </a>{' '}
-        <a target='_blank' href='https://www.heureux-cyclage.org' />
+        <a target="_blank" href="https://www.heureux-cyclage.org" />
       </li>
       <li>
         Voyage en train:{' '}
-        <a target='_blank' href='https://seat61.com'>
+        <a target="_blank" href="https://seat61.com">
           seat61.com
         </a>
       </li>
       <li>
         Article sur la consommation d'eau:
         <a
-          target='_blank'
-          href='http://www.lemonde.fr/ressources-naturelles/article/2015/03/20/la-crise-de-l-eau-illustree-en-5-graphiques_4597592_1652731.html'
+          target="_blank"
+          href="http://www.lemonde.fr/ressources-naturelles/article/2015/03/20/la-crise-de-l-eau-illustree-en-5-graphiques_4597592_1652731.html"
         >
           http://www.lemonde.fr/ressources-naturelles/article/2015/03/20/la-crise-de-l-eau-illustree-en-5-graphiques_4597592_1652731.html
         </a>
@@ -853,26 +859,26 @@ const IndexPage = () => (
       <li>
         Petit guide du bon comportement dans la nature P. Triplet :
         <a
-          target='_blank'
-          href='http://medwet.org/wp-content/uploads/2016/05/Petit-guide-nature.pdf'
+          target="_blank"
+          href="http://medwet.org/wp-content/uploads/2016/05/Petit-guide-nature.pdf"
         >
           http://medwet.org/wp-content/uploads/2016/05/Petit-guide-nature.pdf
         </a>
       </li>
     </ul>
-    <br/>
+    <br />
     <hr />
-    <br/>
+    <br />
     <p>Auteur: Arthur Goubet</p>
     <p>
       Réalisation: Charles Ahmadzadeh, sources disponibles sur{' '}
-      <a href='https://github.com/superzadeh/voyage-responsable' target='_blank'>
+      <a href="https://github.com/superzadeh/voyage-responsable" target="_blank">
         Github
       </a>
     </p>
     <p>
       Pour toutes suggestions, n'hésitez pas à{' '}
-      <a href='https://github.com/superzadeh/voyage-responsable/issues' target='_blank'>
+      <a href="https://github.com/superzadeh/voyage-responsable/issues" target="_blank">
         créer une Issue
       </a>{' '}
       sur Github.

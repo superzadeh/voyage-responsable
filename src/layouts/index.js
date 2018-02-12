@@ -8,12 +8,12 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Voyage Responsable - Arthur Goubet, 2018"
+      title="Voyage et écogestes - Arthur Goubet, 2018"
       meta={[
-        { name: 'description', content: 'Vers un voyage plus responsable' },
+        { name: 'description', content: 'Voyage et écogestes, diminuer son impact environnemental dans le voyage' },
         {
           name: 'keywords',
-          content: 'voyage, responsable, environment, ecologie, préservation, nature'
+          content: 'voyage, responsable, environment, ecologie, préservation, nature, impact, tourisme'
         }
       ]}
     />

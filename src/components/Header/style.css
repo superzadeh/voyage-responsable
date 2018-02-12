@@ -12,6 +12,7 @@
   }
   .topnav a {
     display: block;
+    outline: none;    
   }
   .topnav a.transition {
     opacity: 0;
@@ -19,8 +20,8 @@
     animation: fadeInFromNone  0.6s linear;
   }
   .topnav a.icon {
-    top: 32px;
-    right: 0;
+    top: 34px;
+    right: -10px;
     position: absolute;
     display: block;
     opacity: 1;

@@ -26,14 +26,14 @@ class Header extends Component {
           top: '-20px',
           width: '100%',
           backgroundColor: 'white',
-          borderBottom: '1px #999 solid'
+          borderBottom: '1px #999 solid',
+          textAlign: 'center'
         }}
         className="header"
       >
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
             padding: '1.45rem 1.0875rem'
           }}
           className="topnav"
@@ -48,7 +48,7 @@ class Header extends Component {
             }}
             onClick={this.toggleMenuOff}
           >
-            Voyage Responsable
+            Voyage et impact environnemental
           </Link>
           <a className="transition" href="#transports" onClick={this.toggleMenuOff}>
             Transports
