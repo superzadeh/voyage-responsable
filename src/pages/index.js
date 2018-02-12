@@ -190,7 +190,7 @@ const IndexPage = () => (
       <a href="#economie-energie">Les économies d'énergie</a>
     </h3>
     <p>
-      Qu'importe le niveau de confort de notre hébergement, nous pouvons réaliser de
+      Qu'importe le niveau de confort de notre hébergement, nous pouvons réaliser de{' '}
       <strong>simples gestes qui réduisent la consommation d'énergie</strong>.
     </p>
     <p>
