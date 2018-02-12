@@ -344,7 +344,7 @@ const IndexPage = () => (
     <p>
       On ne peut pas critiquer la présence de déchet dans les pays visités si soi-même
       nous en produisons sur place une quantité importante. Les filières de traitement des
-      déchets et de recyclage peuvent être peu développées, artisanales ou inexistantes.
+      déchets et de recyclage peuvent être peu développées, artisanales ou inexistantes.{' '}
       <strong>Le plastique à usage unique est l'une des plaies de notre époque</strong>.
       La seule solution viable est de diminuer la production de déchet par de simples
       gestes de consommation quotidiens.
