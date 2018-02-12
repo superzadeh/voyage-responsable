@@ -869,9 +869,9 @@ const IndexPage = () => (
     <br />
     <hr />
     <br />
-    <p>Auteur: Arthur Goubet</p>
+    <p>Auteur: Arthur Goubet (contact: arthurgoubet@hotmail.com)</p>
     <p>
-      Réalisation: Charles Ahmadzadeh, sources disponibles sur{' '}
+      Réalisation: Charles Ahmadzadeh, code source disponibles sur{' '}
       <a href="https://github.com/superzadeh/voyage-responsable" target="_blank">
         Github
       </a>
