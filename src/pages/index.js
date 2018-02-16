@@ -6,7 +6,7 @@ const IndexPage = () => (
       Diminuer son impact environnemental dans le voyage
     </h1>
     <p>
-      En 2015, 1 186 000 0001 touristes internationaux ont parcouru le monde. Il y en
+      En 2015, 1 186 000 000 touristes internationaux ont parcouru le monde. Il y en
       avait quasiment moitié moins il y a 15 ans. A l'heure de la démocratisation du
       voyage permettant la découverte de nouveaux horizons et de nouvelles cultures par le
       plus grand nombre, il est intéressant de s'orienter vers un voyage plus responsable.
