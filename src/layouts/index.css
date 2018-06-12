@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 100px;
+  padding: 100px;
+}
+
 body,
 p {
   font-size: 16px;
@@ -58,6 +63,10 @@ em {
   font-style: italic;
 }
 
+a {
+  overflow-wrap: break-word;
+}
+
 ul {
   margin: 0;
 }
@@ -71,6 +80,7 @@ ul.dashed > li:before {
   content: '- ';
   text-indent: -5px;
 }
+
 
 /* Main content */
 .main {

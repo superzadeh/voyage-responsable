@@ -1,17 +1,25 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const IndexPage = () => (
   <div className="main">
+    <Helmet>
+      <meta
+        name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1.0"
+      />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+    </Helmet>
     <h1 style={{ textAlign: 'center', marginBottom: '30px' }}>
       Diminuer son impact environnemental dans le voyage
     </h1>
     <p>
-      En 2015, 1 186 000 000 touristes internationaux ont parcouru le monde. Il y en
-      avait quasiment moitié moins il y a 15 ans. A l'heure de la démocratisation du
-      voyage permettant la découverte de nouveaux horizons et de nouvelles cultures par le
-      plus grand nombre, il est intéressant de s'orienter vers un voyage plus responsable.
-      Afin de diminuer son impact environnemental au sens large, ce guide rappelle
-      quelques bonnes pratiques en matière de transport, d'hébergement, d'alimentation et
+      En 2015, 1 186 000 000 touristes internationaux ont parcouru le monde. Il y en avait
+      quasiment moitié moins il y a 15 ans. A l'heure de la démocratisation du voyage
+      permettant la découverte de nouveaux horizons et de nouvelles cultures par le plus
+      grand nombre, il est intéressant de s'orienter vers un voyage plus responsable. Afin
+      de diminuer son impact environnemental au sens large, ce guide rappelle quelques
+      bonnes pratiques en matière de transport, d'hébergement, d'alimentation et
       d'approche de la nature2. Le but est que chacun trouve des compromis pour mettre en
       place certains de ces gestes et choix afin que d'autres puissent profiter plus tard
       de la même qualité d'environnement. Il est maintenant acquis que les petits gestes
@@ -39,7 +47,7 @@ const IndexPage = () => (
     </p>
     <blockquote cite="http://www.ademe.fr/vacances-kilometre">
       <em>
-        L'infographie de l'Ademe "Des vacances au kilomètre" {' '}
+        L'infographie de l'Ademe "Des vacances au kilomètre"{' '}
         <a
           href="http://multimedia.ademe.fr/infographies/infographie_vacances/"
           target="_blank"
@@ -437,7 +445,7 @@ const IndexPage = () => (
       n'est pas parce que c'est disponible et que les locaux en mangent qu'il faut créer
       une demande supplémentaire. Si vous avez un doute, n'en mangez pas.
     </p>
-    <blockquote cite='http://ddc.arte.tv/emission/des-oceans-sans-poissons'>
+    <blockquote cite="http://ddc.arte.tv/emission/des-oceans-sans-poissons">
       <em>
         <p>
           Vous craignez l'origine et la fraîcheur de certaines viandes, poissons ou œuf?
@@ -608,7 +616,7 @@ const IndexPage = () => (
       qu'avec de la crème solaire que l'on évite de mettre juste avant de rentrer dans
       l'eau.
     </p>
-    <blockquote cite='https://www.surfrider.eu/'>
+    <blockquote cite="https://www.surfrider.eu/">
       <em>
         Vous pouvez également vous engager dans une des nombreuses associations qui
         militent pour le milieu marin comme{' '}

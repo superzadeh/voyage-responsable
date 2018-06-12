@@ -16,6 +16,6 @@ yarn build
 
 
 ```sh
-npm install -g now
+yarn global add now
 now
 ```

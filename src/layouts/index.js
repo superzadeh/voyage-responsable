@@ -8,7 +8,7 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Voyage et écogestes - Arthur Goubet, 2018"
+      title='Voyage et écogestes - Arthur Goubet, 2018'
       meta={[
         { name: 'description', content: 'Voyage et écogestes, diminuer son impact environnemental dans le voyage' },
         {
