@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "author": "Charles Ahmadzadeh <superzadeh@outlook.com",
   "dependencies": {
-    "gatsby": "^1.9.270",
-    "gatsby-link": "^1.6.44",
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "react-helmet": "^5.2.0",
-    "serve": "^8.1.4"
+    "serve": "^9.4.0"
   },
   "keywords": [
     "gatsby"
@@ -22,7 +22,7 @@
     "start": "serve public/"
   },
   "devDependencies": {
-    "prettier": "^1.13.5",
+    "prettier": "^1.14.0",
     "standard": "^11.0.1"
   }
 }
