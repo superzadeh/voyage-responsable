@@ -14,9 +14,4 @@ yarn build
 
 ## Deployment
 
-```sh
-yarn global add now
-now --public
-now ls voyage-responsable
-now alias set deploymentid.now.sh voyage-responsable.now.sh
-```
+The website is deployed using Netlify.com, and automatically updates when pushed to master.
