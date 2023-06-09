@@ -5,7 +5,7 @@
   "author": "Charles Ahmadzadeh <superzadeh@outlook.com",
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "gatsby": "^2.13.23",
+    "gatsby": "^4.25.7",
     "gatsby-link": "^2.2.2",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "react": "^16.8.6",
